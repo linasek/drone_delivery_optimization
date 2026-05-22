@@ -1,0 +1,135 @@
+{
+  "instance_id": "benchmark_03",
+  "metadata": {
+    "random_seed": 44,
+    "description": "Random drone delivery benchmark instance.",
+    "coordinate_system": "2D Euclidean plane",
+    "distance_unit": "abstract distance unit",
+    "demand_unit": "abstract package weight unit",
+    "battery_unit": "abstract energy unit"
+  },
+  "parameters": {
+    "num_customers": 12,
+    "num_drones": 2,
+    "num_no_fly_zones": 4,
+    "area_width": 100.0,
+    "area_height": 100.0
+  },
+  "depot": {
+    "id": 0,
+    "x": 50.0,
+    "y": 50.0
+  },
+  "customers": [
+    {
+      "id": 1,
+      "x": 40.854,
+      "y": 54.197,
+      "demand": 7.034
+    },
+    {
+      "id": 2,
+      "x": 17.667,
+      "y": 22.516,
+      "demand": 1.204
+    },
+    {
+      "id": 3,
+      "x": 11.665,
+      "y": 0.881,
+      "demand": 2.097
+    },
+    {
+      "id": 4,
+      "x": 51.371,
+      "y": 98.949,
+      "demand": 5.855
+    },
+    {
+      "id": 5,
+      "x": 37.843,
+      "y": 40.505,
+      "demand": 5.839
+    },
+    {
+      "id": 6,
+      "x": 32.612,
+      "y": 7.355,
+      "demand": 6.891
+    },
+    {
+      "id": 7,
+      "x": 61.722,
+      "y": 11.201,
+      "demand": 1.49
+    },
+    {
+      "id": 8,
+      "x": 9.463,
+      "y": 95.892,
+      "demand": 1.754
+    },
+    {
+      "id": 9,
+      "x": 62.532,
+      "y": 96.957,
+      "demand": 1.245
+    },
+    {
+      "id": 10,
+      "x": 38.588,
+      "y": 47.728,
+      "demand": 7.418
+    },
+    {
+      "id": 11,
+      "x": 18.859,
+      "y": 25.835,
+      "demand": 2.736
+    },
+    {
+      "id": 12,
+      "x": 4.92,
+      "y": 67.372,
+      "demand": 6.717
+    }
+  ],
+  "drones": [
+    {
+      "id": 1,
+      "payload_capacity": 16.545,
+      "battery_capacity": 125.297
+    },
+    {
+      "id": 2,
+      "payload_capacity": 20.704,
+      "battery_capacity": 223.186
+    }
+  ],
+  "no_fly_zones": [
+    {
+      "id": 1,
+      "center_x": 65.345,
+      "center_y": 32.865,
+      "radius": 12.474
+    },
+    {
+      "id": 2,
+      "center_x": 63.056,
+      "center_y": 58.997,
+      "radius": 9.865
+    },
+    {
+      "id": 3,
+      "center_x": 23.326,
+      "center_y": 45.557,
+      "radius": 12.147
+    },
+    {
+      "id": 4,
+      "center_x": 83.942,
+      "center_y": 4.362,
+      "radius": 6.415
+    }
+  ]
+}

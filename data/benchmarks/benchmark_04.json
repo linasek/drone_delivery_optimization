@@ -1,0 +1,134 @@
+{
+  "instance_id": "benchmark_04",
+  "metadata": {
+    "random_seed": 45,
+    "description": "Random drone delivery benchmark instance.",
+    "coordinate_system": "2D Euclidean plane",
+    "distance_unit": "abstract distance unit",
+    "demand_unit": "abstract package weight unit",
+    "battery_unit": "abstract energy unit"
+  },
+  "parameters": {
+    "num_customers": 14,
+    "num_drones": 3,
+    "num_no_fly_zones": 1,
+    "area_width": 100.0,
+    "area_height": 100.0
+  },
+  "depot": {
+    "id": 0,
+    "x": 50.0,
+    "y": 50.0
+  },
+  "customers": [
+    {
+      "id": 1,
+      "x": 27.188,
+      "y": 48.803,
+      "demand": 1.573
+    },
+    {
+      "id": 2,
+      "x": 33.873,
+      "y": 7.233,
+      "demand": 1.077
+    },
+    {
+      "id": 3,
+      "x": 28.385,
+      "y": 11.771,
+      "demand": 3.177
+    },
+    {
+      "id": 4,
+      "x": 74.347,
+      "y": 3.576,
+      "demand": 5.375
+    },
+    {
+      "id": 5,
+      "x": 13.501,
+      "y": 79.507,
+      "demand": 6.159
+    },
+    {
+      "id": 6,
+      "x": 21.101,
+      "y": 84.808,
+      "demand": 6.021
+    },
+    {
+      "id": 7,
+      "x": 7.495,
+      "y": 40.813,
+      "demand": 5.903
+    },
+    {
+      "id": 8,
+      "x": 92.296,
+      "y": 17.221,
+      "demand": 2.763
+    },
+    {
+      "id": 9,
+      "x": 77.509,
+      "y": 96.267,
+      "demand": 1.656
+    },
+    {
+      "id": 10,
+      "x": 8.983,
+      "y": 75.118,
+      "demand": 3.219
+    },
+    {
+      "id": 11,
+      "x": 38.678,
+      "y": 87.633,
+      "demand": 6.221
+    },
+    {
+      "id": 12,
+      "x": 66.072,
+      "y": 86.765,
+      "demand": 6.124
+    },
+    {
+      "id": 13,
+      "x": 81.025,
+      "y": 64.325,
+      "demand": 5.152
+    },
+    {
+      "id": 14,
+      "x": 5.987,
+      "y": 90.961,
+      "demand": 7.382
+    }
+  ],
+  "drones": [
+    {
+      "id": 1,
+      "payload_capacity": 15.27,
+      "battery_capacity": 207.688
+    },
+    {
+      "id": 2,
+      "payload_capacity": 10.253,
+      "battery_capacity": 189.996
+    },
+    {
+      "id": 3,
+      "payload_capacity": 19.351,
+      "battery_capacity": 161.13
+    }
+  ],
+  "no_fly_zones": [
+    {
+      "id": 1,
+      "center_x": 45.547,
+      "center_y": 8.637,
+      "radius": 8.46
+    }
+  ]
+}

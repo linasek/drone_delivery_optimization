@@ -9,6 +9,4 @@ outputs/plots/*.png
 outputs/routes/*.png
 outputs/tables/*.csv
 outputs/tables/*.xlsx
-data/benchmarks/*.json
 data/processed/*.json
-
