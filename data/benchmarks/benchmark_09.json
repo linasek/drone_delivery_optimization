@@ -1,0 +1,205 @@
+{
+  "instance_id": "benchmark_09",
+  "metadata": {
+    "random_seed": 50,
+    "description": "Random drone delivery benchmark instance.",
+    "coordinate_system": "2D Euclidean plane",
+    "distance_unit": "abstract distance unit",
+    "demand_unit": "abstract package weight unit",
+    "battery_unit": "abstract energy unit"
+  },
+  "parameters": {
+    "num_customers": 24,
+    "num_drones": 4,
+    "num_no_fly_zones": 2,
+    "area_width": 100.0,
+    "area_height": 100.0
+  },
+  "depot": {
+    "id": 0,
+    "x": 50.0,
+    "y": 50.0
+  },
+  "customers": [
+    {
+      "id": 1,
+      "x": 49.754,
+      "y": 26.617,
+      "demand": 5.462
+    },
+    {
+      "id": 2,
+      "x": 24.248,
+      "y": 47.317,
+      "demand": 7.792
+    },
+    {
+      "id": 3,
+      "x": 8.519,
+      "y": 31.738,
+      "demand": 5.735
+    },
+    {
+      "id": 4,
+      "x": 8.524,
+      "y": 15.332,
+      "demand": 6.777
+    },
+    {
+      "id": 5,
+      "x": 97.972,
+      "y": 31.934,
+      "demand": 2.323
+    },
+    {
+      "id": 6,
+      "x": 97.238,
+      "y": 32.892,
+      "demand": 5.226
+    },
+    {
+      "id": 7,
+      "x": 60.749,
+      "y": 63.499,
+      "demand": 7.408
+    },
+    {
+      "id": 8,
+      "x": 96.245,
+      "y": 69.315,
+      "demand": 6.774
+    },
+    {
+      "id": 9,
+      "x": 79.383,
+      "y": 64.312,
+      "demand": 4.012
+    },
+    {
+      "id": 10,
+      "x": 22.722,
+      "y": 26.618,
+      "demand": 7.51
+    },
+    {
+      "id": 11,
+      "x": 70.007,
+      "y": 10.58,
+      "demand": 7.376
+    },
+    {
+      "id": 12,
+      "x": 27.109,
+      "y": 69.246,
+      "demand": 4.22
+    },
+    {
+      "id": 13,
+      "x": 26.966,
+      "y": 20.925,
+      "demand": 5.054
+    },
+    {
+      "id": 14,
+      "x": 41.177,
+      "y": 62.444,
+      "demand": 5.872
+    },
+    {
+      "id": 15,
+      "x": 81.944,
+      "y": 85.319,
+      "demand": 5.378
+    },
+    {
+      "id": 16,
+      "x": 96.64,
+      "y": 49.61,
+      "demand": 7.213
+    },
+    {
+      "id": 17,
+      "x": 81.498,
+      "y": 81.756,
+      "demand": 1.876
+    },
+    {
+      "id": 18,
+      "x": 57.044,
+      "y": 51.659,
+      "demand": 1.652
+    },
+    {
+      "id": 19,
+      "x": 36.774,
+      "y": 51.673,
+      "demand": 1.047
+    },
+    {
+      "id": 20,
+      "x": 0.902,
+      "y": 58.701,
+      "demand": 3.877
+    },
+    {
+      "id": 21,
+      "x": 97.835,
+      "y": 85.026,
+      "demand": 6.802
+    },
+    {
+      "id": 22,
+      "x": 80.282,
+      "y": 22.418,
+      "demand": 6.081
+    },
+    {
+      "id": 23,
+      "x": 9.792,
+      "y": 13.686,
+      "demand": 3.633
+    },
+    {
+      "id": 24,
+      "x": 24.575,
+      "y": 3.35,
+      "demand": 4.625
+    }
+  ],
+  "drones": [
+    {
+      "id": 1,
+      "payload_capacity": 24.487,
+      "battery_capacity": 131.024
+    },
+    {
+      "id": 2,
+      "payload_capacity": 13.557,
+      "battery_capacity": 249.684
+    },
+    {
+      "id": 3,
+      "payload_capacity": 17.925,
+      "battery_capacity": 185.109
+    },
+    {
+      "id": 4,
+      "payload_capacity": 16.274,
+      "battery_capacity": 234.936
+    }
+  ],
+  "no_fly_zones": [
+    {
+      "id": 1,
+      "center_x": 77.52,
+      "center_y": 1.918,
+      "radius": 8.992
+    },
+    {
+      "id": 2,
+      "center_x": 63.942,
+      "center_y": 0.884,
+      "radius": 7.851
+    }
+  ]
+}
